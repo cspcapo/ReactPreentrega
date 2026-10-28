@@ -1,9 +1,18 @@
 import styles from './Header.module.css';
+
 function Header() {
-return (
-<header className={styles.header}>
-<h1>Bienvenidos a mi App React</h1>
-</header>
-);
+	return (
+		<header className={styles.header}>
+			<nav>
+				<ul>
+					<li><a href="">Inicio</a></li>
+					<li><a href="">Productos</a></li>
+					<li><a href="">Destacados</a></li>
+					<li><a href="">Alta de producto</a></li>
+				</ul>
+			</nav>
+		</header>
+	);
 }
+
 export default Header;
