@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    padding-bottom: 20px;
+    width: 15rem;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(175, 229, 245);
+    color: white;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.favorito {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cardTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.imagen {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  display: block;
+  background-color: white;
+}
